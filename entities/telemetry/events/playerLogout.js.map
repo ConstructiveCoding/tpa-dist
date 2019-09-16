@@ -1,0 +1,1 @@
+{"version":3,"file":"playerLogout.js","sourceRoot":"","sources":["../../../../src/entities/telemetry/events/playerLogout.ts"],"names":[],"mappings":";;AAEA,qDAAkD;AAGlD,MAAa,YAAa,SAAQ,+BAAc;IAG9C,YAAY,KAAuB;QACjC,KAAK,CAAC,KAAK,CAAC,CAAC;QACb,IAAI,CAAC,UAAU,GAAG,KAAK,CAAC,SAAS,CAAC;IACpC,CAAC;IAED,IAAI,SAAS;QACX,OAAO,IAAI,CAAC,UAAU,CAAC;IACzB,CAAC;CACF;AAXD,oCAWC"}
