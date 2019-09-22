@@ -5,3 +5,4 @@ export { SamplesPubgAPI } from './samples';
 export { SeasonsPubgAPI } from './seasons';
 export { StatusPubgAPI } from './status';
 export { TelemetryPubgAPI } from './telemetry';
+export { TournamentPubgAPI } from './tournament';

@@ -241,4 +241,3 @@ example output:
 ## License
 
 MIT
-# tpa-dist

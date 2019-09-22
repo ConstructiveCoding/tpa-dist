@@ -27,4 +27,6 @@ var telemetry_1 = require("./telemetry/telemetry");
 exports.Telemetry = telemetry_1.Telemetry;
 __export(require("./telemetry/events"));
 __export(require("./telemetry/objects"));
+var tournament_1 = require("./tournament");
+exports.Tournament = tournament_1.Tournament;
 //# sourceMappingURL=index.js.map

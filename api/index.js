@@ -14,4 +14,6 @@ var status_1 = require("./status");
 exports.StatusPubgAPI = status_1.StatusPubgAPI;
 var telemetry_1 = require("./telemetry");
 exports.TelemetryPubgAPI = telemetry_1.TelemetryPubgAPI;
+var tournament_1 = require("./tournament");
+exports.TournamentPubgAPI = tournament_1.TournamentPubgAPI;
 //# sourceMappingURL=index.js.map

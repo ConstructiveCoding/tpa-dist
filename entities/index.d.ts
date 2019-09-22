@@ -11,3 +11,4 @@ export { Status } from './status';
 export { Telemetry } from './telemetry/telemetry';
 export * from './telemetry/events';
 export * from './telemetry/objects';
+export { Tournament } from './tournament';
