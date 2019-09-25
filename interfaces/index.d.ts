@@ -5,4 +5,4 @@ export { ISample, } from './sample';
 export { ISeason, ISeasonList, } from './season';
 export { IStatus } from './status';
 export * from './telemetry';
-export { ITournament } from './tournament';
+export { ITournament, ITournamentListResponse, } from './tournament';

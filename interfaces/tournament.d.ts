@@ -1,4 +1,16 @@
 import { IAPIObject, ISimpleAPIObject } from './common';
+export interface ITournamentListResponseAttributes {
+    createdAt: string;
+}
+export interface ITournamentListResponseData extends IAPIObject<ITournamentListResponseAttributes> {
+}
+export interface ITournamentListResponse {
+    data: ITournamentListResponseData[];
+    links: {
+        self: string;
+    };
+    meta: {};
+}
 export interface IIncludedMatchAttributes {
     createdAt: string;
 }

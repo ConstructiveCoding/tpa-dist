@@ -40,7 +40,8 @@ export declare enum PlatformRegion {
     XBOX_EU = "xbox-eu",
     XBOX_NA = "xbox-na",
     XBOX_OC = "xbox-oc",
-    XBOX_SA = "xbox-sa"
+    XBOX_SA = "xbox-sa",
+    NULL = ""
 }
 export declare enum SeasonState {
     CLOSED = "closed",

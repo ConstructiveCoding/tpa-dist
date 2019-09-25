@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = require("axios");
+const constants_1 = require("../shared/constants");
 /**
  * Instances of this class will be used to make authenticated requests to the PUBG API.
  *
@@ -23,9 +24,11 @@ class PubgAPI {
         if (useGzip) {
             headers['Accept-Encoding'] = 'gzip';
         }
+        const baseURL = platformRegion === constants_1.PlatformRegion.NULL ? 'https://api.playbattlegrounds.com/' : `https://api.playbattlegrounds.com/shards/${this._platformRegion}/`;
+        console.log(`Creating API with baseURL: ${baseURL}`);
         this._axios = axios_1.default.create({
-            baseURL: `https://api.playbattlegrounds.com/shards/${this._platformRegion}/`,
-            headers: headers,
+            baseURL,
+            headers,
         });
     }
     /**

@@ -15,11 +15,18 @@ const __1 = require("..");
  * Contains a list of matches associated with a tournament
  */
 class Tournament {
+    static list(api) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const tournamentsAPI = new __1.TournamentPubgAPI(api);
+            const tournaments = yield tournamentsAPI.list();
+            return tournaments;
+        });
+    }
     static get(api, tournamentId) {
         return __awaiter(this, void 0, void 0, function* () {
             const tournamentsAPI = new __1.TournamentPubgAPI(api);
             const tournamentData = yield tournamentsAPI.get(tournamentId);
-            console.log(tournamentId);
+            return tournamentData;
         });
     }
 }

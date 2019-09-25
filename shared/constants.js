@@ -50,6 +50,7 @@ var PlatformRegion;
     PlatformRegion["XBOX_NA"] = "xbox-na";
     PlatformRegion["XBOX_OC"] = "xbox-oc";
     PlatformRegion["XBOX_SA"] = "xbox-sa";
+    PlatformRegion["NULL"] = "";
 })(PlatformRegion = exports.PlatformRegion || (exports.PlatformRegion = {}));
 var SeasonState;
 (function (SeasonState) {
